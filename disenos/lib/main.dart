@@ -12,11 +12,10 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       initialRoute: 'scrollDesign',
       routes: {
-        'basicDesign': ( _ ) => BasicDesignScreen(),
-        'scrollDesign': ( _ ) => ScrollDesign()
+        'basicDesign': (_) => BasicDesignScreen(),
+        'scrollDesign': (_) => ScrollDesign()
       },
       theme: ThemeData.dark(),
     );
   }
 }
-
